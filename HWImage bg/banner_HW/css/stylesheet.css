@@ -1,0 +1,42 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.banner{
+	background-image: url(../img/img_bg.jpg);
+	height: 100vh;
+	background-size: 100% 100%;
+	display:  flex;
+	justify-content: center;
+	align-content: center;
+}
+.banner__info{
+	margin: auto;
+	color:  white;
+	width: 45%;
+	text-align: center;
+}
+.banner__info>div{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.banner__title{
+font-size: 30px;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+.banner__text{
+font-size: 20px;
+}
+button{
+	padding: 15px 34px 15px 34px;
+	background-color: rgba(0, 0, 0, 1.0);
+}
+button>a{
+	
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+}
