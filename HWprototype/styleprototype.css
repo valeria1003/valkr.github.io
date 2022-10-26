@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.parent{
+	border: 3px solid green;
+	height: 95vh;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	flex-direction: column;
+}
+.red{
+border: 3px solid red;
+width: 90%;
+}
+.red:nth-child(1){
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.blue{
+	border: 3px solid blue;
+	height: 90%;	
+}
+.red:nth-child(1) .blue:nth-child(1){
+	width: 25%;
+	display: flex;
+	justify-content: space-around;
+	align-self: center;
+}
+.red:nth-child(1) .blue:nth-child(2){
+	width: 40%;
+
+}
+.red:nth-child(1) .blue:nth-child(3){
+	width: 25%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
+.yellow{
+	border: 2px solid yellow;
+	width: 90%;
+	height: 45%;
+}
+.red:nth-child(2){
+	height: 15%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.red:nth-child(2) .blue:nth-child(1){
+width: 25%;
+}
+.red:nth-child(2) .blue:nth-child(2){
+width: 18%;
+margin-right: -10px;
+}
+.red:nth-child(2) .blue:nth-child(3){
+width: 18%;
+margin-left: -10px;
+}
+.red:nth-child(2) .blue:nth-child(4){
+	width: 25%;
+}
+.red:nth-child(3){
+	height: 30%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.red:nth-child(3) .blue:nth-child(1){
+	width: 25%;
+}
+.red:nth-child(3) .blue:nth-child(2){
+	width: 65%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.red:nth-child(3) .blue:nth-child(2) .yellow:nth-child(1){
+	width: 90%;
+	height: 70%;
+}
+.red:nth-child(3) .blue:nth-child(2) .yellow:nth-child(2){
+	width: 90%;
+	height: 20%;
+}
+.red:nth-child(4){
+	height: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row-reverse;
+}
+.red:nth-child(4) .blue:nth-child(1){
+	width: 25%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.red:nth-child(4) .blue:nth-child(2){
+	width: 40%;
+
+}
+.red:nth-child(4) .blue:nth-child(3){
+	width: 25%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+}
