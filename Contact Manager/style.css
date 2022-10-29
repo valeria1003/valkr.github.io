@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.form{
+	width: 80%;
+	margin: auto;
+}
+.form__header{
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	
+	background: lightgreen;
+}
+.form__header h3{
+	margin: 15px 15px;
+}
+.form__header select{
+	background: lightgreen;
+	border: none;
+	margin-left: 50px;
+}
+.form__info{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	margin-top: 15px;
+}
+.form__right{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.form__left{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 50%;
+}
+.form__item{
+	display: flex;
+	margin-bottom: 25px;
+	margin-left: 15px;
+}
+.form__item span{
+	color: red;
+}
+.form__item input{
+	margin-left: 100px;
+	width: 275px;
+	height: 25px;
+}
+.form__left .form__item:nth-child(2) input{
+	margin-left: 96px;
+}
+.form__item .form__textarea{
+	height: 135px;
+	margin-left: 122px;
+}
+.form__item .form__itemCIty{
+	margin-left: 145px;
+}
+.form__item select{
+	margin-left: 140px;
+	width: 280px;
+	height: 28px;
+}
+.form__item .form__itemZip{
+	margin-left: 149px;
+}
+.form__item .form__itemPhone{
+	width: 138px;
+	height: 25px;
+	margin-left: 88px;
+}
+.form__itemWeb{
+	display: flex;
+	flex-direction: row;
+	margin-left: 15px;
+}
+.form__Web{
+	display: flex;
+	flex-direction: column;
+}
+.form__itemLink input{
+	width: 138px;
+	height: 25px;
+}
+.form__itemLink{
+	margin-left: 120px;
+}
+.form__itemLink .form__url{
+	margin-left: 105px;
+}
+.form__itemLink .form__link{
+	margin-left: 53px;
+	margin-top: 10px;
+}
+.form__item .form__work{
+	margin-left: 84px;
+}
+.form__itemMail{
+	margin-top: 25px;
+	margin-left: 15px;
+}
+.form__itemMail span{
+	color: red;
+}
+.form__itemMail .form__mail{
+	margin-left: 64px;
+	width: 275px;
+	height: 25px;
+}
+.form__footer{
+	background: lightgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	margin-top: 15px;
+}
+.form__footer input{
+	background: lightgreen;
+	border: 1px solid green;
+	padding: 5px 25px;
+	margin-left: 5px;
+
+}
+.form__right .form__time{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 25px;
+}
+.form__right .form__time div:nth-child(2){
+	margin-left: 75px;
+}
+.form__right .form__time div:nth-child(2) input{
+	margin-bottom: 9px;
+}
+.message>.form__textarea{
+	height: 135px;
+	width: 275px;
+	margin-left: 268px;
+}
+.form__right .message{
+	display: flex;
+	flex-direction: row;
+
+}
+		
