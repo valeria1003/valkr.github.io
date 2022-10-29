@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		input:focus{
+			border: 1 px solid skyblue;
+		}
+	</style>
+</head>
+<body>
+	<h1>Sign Up</h1>
+	<form>
+		<div class="form">
+			<div class="form__item">
+				<p>Name</p>
+				<input type="text" name="name" value="Michael Hartl">
+			</div>
+			<div class="form__item">
+				<p>Email</p>
+				<input type="text" name="mail" value="mhartl@example.com">
+			</div>
+			<div class="form__item">
+				<p>Password</p>
+				<input type="password" name="password" value="12345">
+			</div>
+			<div class="form__item">
+				<p>Confirmation</p>
+				<input type="password" name="password" value="12345">
+			</div>
+			<div class="form__item">
+				<input class="form__submit" type="submit" name="submit" value="Create My Account">
+			</div>
+		</div>
+	</form>
+
+</body>
+</html>
