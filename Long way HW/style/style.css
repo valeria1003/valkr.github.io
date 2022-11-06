@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.hero__section{
+	width: 100vw;
+	height: 60vh;
+	background-image: url(../img/bg.jpg);
+	background-size: 100% 200%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.header{
+	width: 100vw;
+	height: 22vh;
+	margin-top: 10vh;
+	background: whitesmoke;
+	opacity: 0.6;
+}
+h1{
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 55px;
+	padding-top: 2.3vh;
+}
+h1, h3, h2{
+	font-family: 'Nothing You Could Do', cursive;
+}
+.hero__cards{
+	display: flex;
+	width: 100vw;
+	height: 75vh;
+	color: white;
+}
+.card__item{
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(150, 75, 0, 0.2);
+	padding: 40px;
+	border-radius: 8px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+
+	}
+.hero__cards>.card__item:nth-child(1){
+	margin-left: 10vh;
+	margin-right: 5vh;
+}
+.hero__cards>.card__item:nth-child(3){
+	margin-right: 10vh;
+	margin-left: 5vh;
+}
+.subheader{
+	display: flex;
+	flex-direction: row;
+	margin-left: 30vh;
+}
+.icon>i{
+	height: 40px;
+	width: 40px;
+	padding-top: 3px;
+    font-size: 25px;
+}
+.subheader>.card__text{
+	text-align: justify;
+}
+.info__section{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.info__text{
+	width: 45vw;
+	margin-top: 30px;
+}
+.info__text>h2{
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.info__media{
+	width: 30vw;
+	display: flex;
+	flex-direction: column;
+}
+.media{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.elipse{
+	background-color: #bfaa8c;
+	color: white;
+	height: 30px; 
+	width: 30px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.info__media>.media:nth-child(1){
+	padding: 40px;
+}
+.info__media>.media:nth-child(2){
+	padding: 10px;
+}
+.info__media>.media:nth-child(3){
+	padding: 10px;
+}
+.info__media>.media:nth-child(4){
+	padding: 10px;
+}
