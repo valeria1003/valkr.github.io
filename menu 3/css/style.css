@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.nav{
+	width: 55vw;
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #e1e2e2;
+}
+.nav__item{
+	display: flex;
+	align-items: center;
+	padding: 3.4vh 1.5vw;
+	border: 1 px solid grey;
+	border-bottom: none;
+	border-top: none;
+	cursor: pointer;
+}
+.nav__item:hover{
+	background: #d7d9d8;
+}
+.nav__item:nth-child(1){
+	font-weight: 900;
+}
+.nav__title{
+	padding-right: 0.5vw;
+}
