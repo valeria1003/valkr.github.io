@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 65%;
+	padding-top: 4%;
+	padding-left: 18%;
+	font-family: 'Merriweather', serif;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 150px 150px;
+    padding-top: 45px;
+}
+h1{
+	font-size: 40px;
+	color: #003a5d;
+    font-weight: 300;
+}
+.grid__item{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.grid__itemText{
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+.grid__itemImg{
+	width: 30%;
+}
+.grid__itemText>*{
+	padding-bottom: 8px;
+}
+.grid__itemCity{
+	color: #003a5d;
+}
+.grid__itemAdress, .grid__itemPhone{
+    color: #81859c;
+}
