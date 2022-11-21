@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Manager</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form class="form">
+		<div class="form__header">
+			<h3><b>Contact Manager</b></h3>
+			<select name="select">
+				<option value="">More Action</option>
+			</select>
+		</div>
+		<div class="form__info">
+			<div class="form__left">
+				<div class="form__item">Fist Name<span>*</span>
+					<input type="text" name="first_name">
+				</div>
+				<div class="form__item">Last Name<span>*</span>
+					<input type="text" name="first_name">
+				</div>
+				<div class="form__item">Address
+					<input class="form__textarea" type="text" name="first_name">
+				</div>
+				<div class="form__item">City
+					<input class="form__itemCIty" type="text" name="first_name">
+				</div>
+				<div class="form__item">State
+					<select>
+						<option value="-Select-"></option>
+					</select>
+				</div>
+				<div class="form__item">Zip
+					<input class="form__itemZip" type="text" name="first_name">
+				</div>
+				<div class="form__item">Home Phone
+					<input class="form__itemPhone" type="text" name="first_name">
+				</div>
+				<div class="form__item">Work Phone<span>*</span>
+					<input class="form__work" type="text" name="first_name">
+				</div>
+				<div class="form__item">Fax Number
+					<input class="form__itemPhone" type="text" name="first_name">
+				</div>
+				<div class="form__itemWeb">Website
+					<div class="form__Web">
+						<div class="form__itemLink">Url
+						<input class="form__url" type="text" name="url"></div>
+					<div class="form__itemLink">Link Name
+						<input class="form__link" type="text" name="name"></div>
+				</div>
+				</div>
+					<div class="form__itemMail">Email Address<span>*</span>
+					<input class="form__mail" type="text" name="first_name">
+				</div>
+			</div>
+			<div class="form__right">
+				<div class="form__time">
+					<div><b>When is the best time to contact you?</b></div>
+						<div>
+							Morning<input type="radio" name="time" value="Morning"><br/>
+							Afternoon<input type="radio" name="time" value="Afternoon"><br/>
+							Evening<input type="radio" name="time" value="Evening"><br/>
+					</div>
+				</div>
+				<div class="form__time">
+					<div><b>When is the best way to contact  you?</b></div>
+						<div>
+							Phone<input type="radio" name="way" value="phone"><br/>
+							Email<input type="radio" name="way" value="email"><br/>
+							Fax<input type="radio" name="way" value="fax"><br/>
+					</div>
+				</div>
+				<div class="message">
+				<div class="form__itemRight">Message</div>
+				<input class="form__textarea" type="text" name="message">
+				
+			</div>
+				
+			</div>
+		</div>
+		<div class="form__footer">
+			<input type="submit" name="Submit">
+			<input type="reset" name="Reset">
+		</div>
+		
+	</form>
+</body>
+</html>
